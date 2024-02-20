@@ -1,0 +1,28 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>OpenAI API Example</title>
+</head>
+<body>
+  <div id="input-container">
+    <label for="input">Input:</label>
+    <textarea id="input" rows="4"></textarea>
+
+    <label for="instruction">Instruction:</label>
+    <input type="text" id="instruction">
+
+    <button onclick="fetchData()">Submit</button>
+  </div>
+
+  <div id="output-container">
+    <!-- The response will be displayed here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

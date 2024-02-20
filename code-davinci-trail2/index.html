@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>ChatGPT Interface</title>
+</head>
+<body>
+  <div class="container">
+    <h1>ChatGPT Interface</h1>
+    <div>
+      <label for="inputText">Input:</label>
+      <textarea id="inputText" placeholder="Enter your input"></textarea>
+    </div>
+    <div>
+      <label for="instructionText">Instruction:</label>
+      <textarea id="instructionText" placeholder="Enter your instruction"></textarea>
+    </div>
+    <button onclick="generateResponse()">Generate Response</button>
+    <div id="response"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+

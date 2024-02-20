@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Terraform Code Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Terraform Code Generator</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <label for="image">Upload Image:</label>
+            <input type="file" name="image" accept="image/*" required>
+            <label for="text">Enter Text:</label>
+            <textarea name="text" rows="4" required></textarea>
+            <button type="button" onclick="generateCode()">Generate Terraform Code</button>
+        </form>
+    </div>
+    <div id="codeContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

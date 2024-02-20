@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>OpenAI Chat</title>
+</head>
+<body>
+  <h1>OpenAI Chat</h1>
+  <form id="openaiForm">
+    <label for="input">Input:</label>
+    <textarea id="input" name="input" rows="4"></textarea>
+    <label for="instruction">Instruction:</label>
+    <input type="text" id="instruction" name="instruction" value="I need a terraform code for a vpc in gcp">
+    <button type="button" onclick="generateResponse()">Generate Response</button>
+  </form>
+  <div id="response"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
